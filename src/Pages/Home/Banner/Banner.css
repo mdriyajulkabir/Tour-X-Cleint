@@ -1,0 +1,57 @@
+.main-image{
+    position: relative;
+    background: url(../../../Images/banner.jpeg) no-repeat center;
+    background-size: cover;
+    height: 550px;
+    overflow: hidden;
+}
+.containers{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-transform: uppercase;
+}
+.cen{
+    margin-bottom: 10px;
+    display: block;
+    font-size: 56px;
+    font-weight: bolder;
+}
+.cen2{
+    margin-bottom: 10px;
+    display: block;
+    font-size: 36px;
+    
+}
+
+
+.button{
+    color: #313131;
+    margin-left: 30px;
+    padding-left: 19px;
+    padding-right: 19px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    background: #f1f1f1;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: .6s;
+}
+.button:hover{
+    opacity: .6;
+}
+@media only screen and (max-width: 390px){
+    .cen{
+        margin-bottom: 10px;
+        display: block;
+        font-size: 50px;
+        font-weight: bolder;
+    }
+    .cen2{
+        margin-bottom: 10px;
+        display: block;
+        font-size: 21px;
+    }
+}

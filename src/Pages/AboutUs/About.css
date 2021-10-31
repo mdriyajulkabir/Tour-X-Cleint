@@ -1,0 +1,16 @@
+.about{
+    background-image: url('https://image.freepik.com/free-photo/eucalyptus-silver-dollar-white-marble-background_53876-97390.jpg');
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.other-card1{
+    box-shadow:0 0 10px rgb(209, 208, 208),0 0 10px rgb(209, 208, 208), 0 0 80px rgb(209, 208, 208);
+}
+.other-card:hover{
+    box-shadow:0 0 10px gray,0 0 10px gray, 0 0 80px gray;
+    background: rgb(235, 233, 234);
+    cursor: pointer;
+}

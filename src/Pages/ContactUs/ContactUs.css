@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.contact-banner{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.contact-slider{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+}
+#contact-slideImg{
+    width: 100%;
+    height: 100%;
+}
+.contact-overlay{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(66, 65, 65, 0.7),rgba(66, 65, 65, 0.7));
+    position: absolute;
+    top: 0;
+}
+.contact-content{
+    width: 60%;
+    margin: 70px auto 0;
+    text-align: center;
+    color: #fff;
+}
+.contact-content h4{
+    font-size: 60px;
+    width: 80%;
+    margin: 20px auto 60px;
+    /* font-weight: 100; */
+    /* line-height: 25px; */
+    padding: 90px;
+}
+@media only screen and (max-width:600px){
+    .banner{
+        height: 120vh;
+    }
+    .slider{
+        height: 120vh;
+    }
+    .overlay{
+        height: 120vh;
+    }
+    .contact-con{
+    display: none;
+    }
+}
+/* --------------------------------------------input---------------------------------- */
+.opinion input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical ;
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  .opinion input[type=submit] {
+    background-color: skyblue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  .opinion input[type=submit]:hover {
+    background-color: rgb(87, 188, 228);
+  }
+  
+  /* Add a background color and some padding around the form */
+  .contai {
+    border-radius: 5px;
+    background-color: rgb(201, 236, 250);
+    padding: 20px;
+  }
