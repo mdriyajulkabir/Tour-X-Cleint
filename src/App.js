@@ -17,6 +17,8 @@ import Details from "./Pages/Details/Details";
 import Error from "./Pages/Error/Error";
 import MyOrder from "./Pages/MyOrder/MyOrder";
 import Dashboard from "./Pages/Dashboard/Dashboard";
+import PlaceOrder from "./Pages/PlaceOrder/PlaceOrder";
+import AddService from "./Pages/AddService/AddService";
 
 
 function App() {
@@ -48,6 +50,12 @@ function App() {
           </Route>
           <PrivateRoute path='/details/:id'>
             <Details></Details>
+          </PrivateRoute>
+          <PrivateRoute path='/placeorder/:name'>
+              <PlaceOrder></PlaceOrder>
+          </PrivateRoute>
+          <PrivateRoute path='/addorder'>
+              <AddService></AddService>
           </PrivateRoute>
           <PrivateRoute path='/dashboard'>
             <Dashboard></Dashboard>

@@ -47,7 +47,7 @@ const MyOrder = () => {
                                             </div>
                                         </div>
                                         <div>
-                                            <Link className='details d-flex align-items-center justify-content-center rounded-3 py-2 mb-2 ' style={{ textDecoration: 'none' }} to={`/details/${booking._id}`}>Details</Link>
+                                            <Link className='details d-flex align-items-center justify-content-center rounded-3 py-2 mb-2 ' style={{ textDecoration: 'none' }} to={`/placeorder/${booking.name}`}>Confirm</Link>
                                             <button className='details rounded-3 py-2' onClick={() => remove(booking._id)} >
                                                 Remove
                                             </button>

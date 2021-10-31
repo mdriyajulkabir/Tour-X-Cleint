@@ -8,6 +8,7 @@ const Dashboard = () => {
         <div>
             <Header></Header> <br />
             <Link style={{color:'black', textDecoration:'none'}} className='details p-3 text-center m-5 ' to='/myorder'> My Order</Link>
+            <Link style={{color:'black', textDecoration:'none'}} className='details p-3 text-center m-5 ' to='/addorder'> Add Item</Link>
             <Footer></Footer>
         </div>
     );
